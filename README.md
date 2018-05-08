@@ -33,7 +33,10 @@ coded.
 ## Database structure
 
 The database is structured by Genus labelled folders, with subfolders indicating
-relevant subgroups (e.g., ST, Serovar, species).
+relevant subgroups (e.g., ST, Serovar, species). In each subfolder there are
+files with the *.bed* suffix named after the accession of the relevant reference
+sequence. For instance, *NC_19999.1.bed* is the BED file containing regions to
+mask for sequence *NC_19999* version *1*.
 
 Unless otherwise specified,
 the following *genera* are taken as shorthand for specific species of interest
